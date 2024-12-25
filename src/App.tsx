@@ -53,7 +53,7 @@ function App() {
       } else {
         console.error("WebSocket is not open.");
       }
-    }, 10000);
+    }, 1000);
 
     setTypingTimeout(newTimeout);
   }
